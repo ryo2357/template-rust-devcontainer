@@ -8,3 +8,4 @@ services:
     # network_mode: "host"
     environment:
       - TZ=Asia/Tokyo
+    env_file: devcontainer.env

@@ -15,3 +15,7 @@ Change project name to repository name.
 - run: `docker run -it <image_name>`
 - run and delete image: `docker run -it --rm <image_name>`
 
+
+## Environment Variables
+
+The environment variables within the devcontainer are defined in `.devcontainer/devcontainer.env`. The environment variables for the runtime image are defined in the runtime environment.
