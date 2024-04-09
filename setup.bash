@@ -5,8 +5,8 @@ project_name=$(basename $current_dir)
 
 sed -i "s/template-rust-devcontainer/$project_name/g" Cargo.toml
 sed -i "s/template-rust-devcontainer/$project_name/g" Dockerfile
-sed -i "s/template-rust-devcontainer/test/g" .devcontainer/devcontainer.json
+sed -i "s/template-rust-devcontainer/$project_name/g" .devcontainer/devcontainer.json
 
 
 echo "Setup complete"
-rm -- "$0"
+# rm -- "$0"

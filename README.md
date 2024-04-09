@@ -13,5 +13,5 @@ Change project name to repository name.
 
 - build: `docker build -t <image_name> .`
 - run: `docker run -it <image_name>`
-- run and delete imatge: `docker run -it --rm <image_name>`
+- run and delete image: `docker run -it --rm <image_name>`
 
