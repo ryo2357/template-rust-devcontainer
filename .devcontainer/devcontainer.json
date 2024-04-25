@@ -1,10 +1,10 @@
 {
   "name": "template-rust-devcontainer",
   "dockerComposeFile": [
-    "./docker-compose.yml"
+    "compose.yml"
   ],
   "remoteUser": "root",
-  "service": "app",
+  "service": "app-dev",
   "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
@@ -23,7 +23,9 @@
         "Gruntfuggly.todo-tree",
         "streetsidesoftware.code-spell-checker",
         "GitHub.vscode-pull-request-github",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "mhutchie.git-graph",
+        "ms-azuretools.vscode-docker"
       ]
     }
   }
