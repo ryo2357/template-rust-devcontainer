@@ -5,9 +5,11 @@ Rust development template on devcontainer
 
 ## Setup
 
-Change project name to repository name.
-
-`bash setup.bash`
+```bash
+git clone git@github.com:ryo2357/template-rust-devcontainer.git <rust package name>
+cd <rust package name>
+bash setup.bash
+```
 
 ## Make Docker Image
 
